@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hab+Dash</title>
+    <link rel="stylesheet" href="hab-dash.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- Swiper JS with defer -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
+      defer
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="banner__promotion">
+        <p>Use this banner to advertise a special promotion—20% off!</p>
+      </div>
+
+      <div class="banner__upper">
+        <div class="banner__left-nav">
+          <p>SWITCH REWARDS</p>
+          <p>QUICK ORDER</p>
+          <div class="banner__location-nav">
+            <img src="./img/map.svg" alt="map icon" />
+            <p>STORE LOCATOR</p>
+          </div>
+        </div>
+
+        <div class="banner__right-nav">
+          <p>CART</p>
+          <p>SIGN UP</p>
+
+          <p>LOG IN</p>
+          <span>🔍︎</span>
+        </div>
+      </div>
+      <div class="banner__hamburger">
+        <img src="./img/menu-hamburger.svg" alt="hamburger menu" />
+        <img src="/img/logo.png" alt="hab+dash" />
+      </div>
+
+      <nav class="banner__lower">
+        <div class="banner__logo">
+          <img src="/img/logo.png" alt="hab+dash" />
+        </div>
+
+        <ul class="banner__nav-links">
+          <li>Top Thread <span>▼</span></li>
+          <li>Bobbins<span>▼</span></li>
+          <li>Stabilizer<span>▼</span></li>
+          <li>Displays<span>▼</span></li>
+          <li>Nations<span>▼</span></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="banner__image-text">
+      <img src="/img/banner.png" alt="banner image" />
+      <div class="banner__text">
+        <p>Add color to your masterpiece</p>
+        <button>Shop Now</button>
+      </div>
+    </section>
+    <main>
+      <section class="main__carousel">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/carousel_image-01.png" alt="carousel image 1" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/carousel_image-02.png" alt="carousel image 2" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/carousel_image-03.png" alt="carousel image 3" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/carousel_image-02.png" alt="carousel image 4" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/carousel_image-01.png" alt="carousel image 5" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/carousel_image-03.png" alt="carousel image 6" />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!-- <section class="featured__products">
+                                <h2>FEATURED PRODUCTS</h2>
+                                <div>
+                                    <img src="/img/feature-products-1.png" alt="Featured Product 1">
+                                    <p>EMBROIDERY STABILIZER</p>
+                                    <img src="/img/featured-products-2.png" alt="Featured Product 2">
+                                    <p>CUBBIE GREY ELEPHANT</p>
+                                    <img src="/img/featured-products-3.png" alt="Featured Product 3">
+                                    <p>KIMBERBELL CUP OF CHEER</p>
+                                    <img src="/img/featured-products-3.png" alt="Featured Product 4">
+                                    <p>KIMBERBELL TWO SCOOPS</p>
+                                </div>
+                            </section> -->
+      <section class="featured__products">
+        <h2>FEATURED PRODUCTS</h2>
+        <div class="product-grid">
+          <div class="product">
+            <img
+              src="/img/feature-products-1.png"
+              alt="Embroidery Stabilizer"
+            />
+            <p>EMBROIDERY STABILIZER</p>
+          </div>
+          <div class="product">
+            <img
+              src="/img/featured-products-2.png"
+              alt="Cubbie Grey Elephant"
+            />
+            <p>CUBBIE GREY ELEPHANT</p>
+          </div>
+          <div class="product">
+            <img
+              src="/img/featured-products-3.png"
+              alt="Kimberbell Cup of Cheer"
+            />
+            <p>KIMBERBELL CUP OF CHEER</p>
+          </div>
+          <div class="product">
+            <img
+              src="/img/featured-products-3.png"
+              alt="Kimberbell Two Scoops"
+            />
+            <p>KIMBERBELL TWO SCOOPS</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./hab-dash.js"></script>
+  </body>
+</html>
